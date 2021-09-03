@@ -1,0 +1,153 @@
+.fs-20 {
+    font-size: 20px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+@include media-breakpoint-up(md) {
+    .fs-topic {
+        font-size: 36px!important;
+    }
+}
+.border-start-none {
+    border-left: 1px solid #000;
+}
+@include media-breakpoint-down(lg) {
+    .border-start-none {
+        border-left: 0px solid #000;
+    }
+}
+@include media-breakpoint-down(md) {
+    .pse-15 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.lh-30 {
+    line-height: 30px;
+}
+.lh-3 {
+    line-height: 3rem;
+}
+.bg-lightgray {
+    background-color: #EFEFEF;
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+.ml-15 {
+    @include media-breakpoint-up(md) {
+        margin-left: -15px;
+    }
+}
+.mse-15 {
+    margin-right: -15px;
+    margin-left: -15px;
+    @include media-breakpoint-up(md) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.foot-btn-1 {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot-btn-2 {
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.product-box {
+    height: 16rem;
+}
+
+.ticket-box {
+    height: 16rem;
+}
+@include media-breakpoint-down(md) {
+    .ticket-box {
+        height: 8rem;
+    }
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.img-box01 {
+    height: 25rem;
+    @include media-breakpoint-up(md) {
+        width: 100%;
+    }
+}
+
+.img-box02 {
+    height: 35rem;
+    @include media-breakpoint-up(md) {
+        width: 100%;
+    }
+}
+
+.img-box03 {
+    height: 7.5rem;
+    width: 7.5rem;
+    @include media-breakpoint-up(md) {
+        width: 100%;
+    }
+}
+
+.card-body {
+    height: 7.5rem;
+}
+
+.offcanvas-end {
+    width: 540px;
+}
+
+.timeline-section {
+    position: relative;
+    font-size: 14px;
+}
+
+.timeline-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #e31277;
+}
+
+.timeline-pointer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+  
+.timeline-pointer::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: translate(-50%, -30%);
+    border: 1px solid #E31277;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.pointer-check::before {
+    content: "";
+    background-color: #e31277;
+}
+
+.fs-icon {
+    font-size: 50px;
+}

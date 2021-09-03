@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: $h4-font-size;
+    line-height: 24px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+// .row > * {
+//     padding-left: 0;
+//     padding-right: 0;
+// }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
